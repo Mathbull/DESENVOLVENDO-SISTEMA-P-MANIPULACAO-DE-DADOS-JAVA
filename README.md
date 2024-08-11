@@ -21,14 +21,16 @@
   <a href="https://github.com/isabellazramos" target="_blank">Autor</a>
 </p>
 
-## :dart: Sobre ##
+<h2 align='center'>  :dart: Sobre </h2>
 
-Trabalho de conclusão de semestre sobre a persistência de dados, visando contribuir para o avanço do conhecimento em paradigmas orientados a objetos, bem como destacando a importância do armazenamento de dados para garantir a continuidade e viabilizar futuras manipulações do programa pelos usuários.
+<p align="justify">
+  Trabalho de conclusão de semestre sobre a persistência de dados, visando contribuir para o avanço do conhecimento em paradigmas orientados a objetos, bem como destacando a importância do armazenamento de dados para garantir a continuidade e viabilizar futuras manipulações do programa pelos usuários.
+</p>
 
 ## 📽️ Projeto ##
 Detalhamento do projeto com o uso de diagrama UML:
 
-<img src="./img/java_persistencia.jpg" alt="Java Persistencia de dados" />
+<img src="./img/uml.png" alt="Estrutura do programa usando diagrama UML" />
 
 
 ## :memo: Licença ##
