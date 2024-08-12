@@ -48,6 +48,20 @@ O método `guardarCarro(Carro aCar, String filePath)` adiciona uma nova entrada 
 
 O método `removerCar(String filePath, String aGaragem)` reescreve o arquivo CSV sem a entrada do carro especificado, passando a ideia de que o carro foi removido. Ele abre o arquivo em modo de escrita utilizando um `FileOutputStream`, o que sobrescreve todo o conteúdo existente. O `FileOutputStream` é envolvido em um `OutputStreamWriter` com codificação UTF-8, e um `PrintWriter` é criado para facilitar a escrita no arquivo. A string `aGaragem` é dividida em um array de strings utilizando o delimitador `;`, e o método itera sobre este array, escrevendo cada linha no arquivo CSV. Em caso de uma exceção de E/S (IOException), o método imprime "Erro na removerCar". 
 
+Resumindo, o método `pegaCsv` lê o conteúdo de um arquivo CSV e retorna uma string com todas as linhas associadas e separadas por ponto e vírgula. O método `saveCar` adiciona uma nova linha contendo os dados do carro ao final do arquivo CSV. O método `removeCar` substitui o arquivo CSV sem especificar uma linha, sem o carro especificado removendo efetivamente o carro. Esses métodos usam estruturas de controle e fluxos de E/S para executar operações comuns em arquivos CSV e usam tratamento básico de exceções para lidar com erros de E/S.
+
+</details>
+<details>
+  <summary>  <h3> Processo de visualização dos dados </h3> </summary>
+
+A classe chamada `Menu` é responsável por gerenciar a exibição de opções e informações para os usuários. Seus métodos oferecem funcionalidades para apresentar títulos, diferentes menus e limpar o terminal, organizando a interação do usuário de forma clara e intuitiva. 
+
+O método `title()` exibe o título principal de forma centralizada, utilizando um separador para destacá-lo. 
+
+Por meio do método `menu()`, diferentes menus são apresentados conforme cada uma das opções fornecidas. Por exemplo, para a remoção de veículos, são dadas instruções sobre o formato da placa e um prompt para inserir a placa do veículo a ser retirado. Da mesma forma, o método trata outras opções, como visualizar os carros na garagem ou adicionar outro veículo, fornecendo orientações para cada uma das ações. 
+
+O método `LimparTerminal()` limpa o terminal para uma melhor experiência visual. Em resumo, a classe Menu facilita a interação do usuário com o sistema de gerenciamento da garagem, fornecendo uma interface organizada e intuitiva para conseguir acessar as diferentes funcionalidades do aplicativo.
+ 
 </details>
 
 <h2 align="center" > :memo: Licença</h2>
