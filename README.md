@@ -50,7 +50,8 @@ O método `removerCar(String filePath, String aGaragem)` reescreve o arquivo CSV
 
 </details>
 
-## :memo: Licença ##
+<h2 align="center" > :memo: Licença</h2>
+
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
