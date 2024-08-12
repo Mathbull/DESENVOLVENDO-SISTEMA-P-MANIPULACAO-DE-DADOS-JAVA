@@ -10,7 +10,7 @@ public class GaragemMap {
     private LerGaragemCSV storage = new LerGaragemCSV();
     // Criamos a instacia do obj que irá ler e escrever no CSV
 
-    private String file = ".\Garagem.csv";
+    private String file = "./Garagem.csv";
     // Caminho onde esta o CSV
 
     public GaragemMap(){
