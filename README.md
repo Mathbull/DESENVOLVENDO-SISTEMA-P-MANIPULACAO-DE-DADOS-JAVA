@@ -54,7 +54,7 @@ Resumindo, o método `pegaCsv` lê o conteúdo de um arquivo CSV e retorna uma s
 <details>
   <summary>  <h3> Processo de visualização dos dados </h3> </summary>
 
-A classe chamada `Menu` é responsável por gerenciar a exibição de opções e informações para os usuários. Seus métodos oferecem funcionalidades para apresentar títulos, diferentes menus e limpar o terminal, organizando a interação do usuário de forma clara e intuitiva. 
+A classe `Menu` é responsável por gerenciar a exibição de opções e informações para os usuários. Seus métodos oferecem funcionalidades para apresentar títulos, diferentes menus e limpar o terminal, organizando a interação do usuário de forma clara e intuitiva. 
 
 O método `title()` exibe o título principal de forma centralizada, utilizando um separador para destacá-lo. 
 
