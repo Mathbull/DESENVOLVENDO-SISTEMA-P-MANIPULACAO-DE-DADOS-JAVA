@@ -64,6 +64,11 @@ O método `LimparTerminal()` limpa o terminal para uma melhor experiência visua
  
 </details>
 
+<h2 align="center" >✒️ Colaboradores</h2>
+
+<p align='center'><a href="https://github.com/Mathbull">Matheus Santos </a></p>
+<p align='center'><a href="https://github.com/viniz0x">Pedro Vinícius </a></p>
+
 <h2 align="center" > :memo: Licença</h2>
 
 
