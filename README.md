@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/isabellazramos" target="_blank">Autor</a>
+  <a href="https://github.com/Mathbull" target="_blank">Autor</a>
 </p>
 
 <h2 align='center'>  :dart: Sobre </h2>
